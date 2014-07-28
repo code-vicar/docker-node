@@ -8,3 +8,4 @@ MAINTAINER Scott Vickers
 RUN sudo apt-get update
 RUN sudo apt-get -y install nodejs
 RUN sudo apt-get -y install npm
+RUN sudo ln -s "$(which nodejs)" /usr/bin/node
